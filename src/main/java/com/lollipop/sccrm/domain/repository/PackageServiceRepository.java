@@ -1,4 +1,7 @@
 package com.lollipop.sccrm.domain.repository;
 
-public interface PackageServiceRepository {
+import com.lollipop.sccrm.domain.entity.PackageService;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PackageServiceRepository extends JpaRepository<PackageService, Long> {
 }

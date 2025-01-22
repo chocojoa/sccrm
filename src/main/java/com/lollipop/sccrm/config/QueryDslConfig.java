@@ -1,4 +1,4 @@
-package com.mnh.dtx.config;
+package com.lollipop.sccrm.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;
